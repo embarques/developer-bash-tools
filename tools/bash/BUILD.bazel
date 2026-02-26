@@ -1,4 +1,5 @@
 sh_binary(
     name = "hello_bash",
     srcs = ["hello.sh"],
+    visibility = ["//visibility:public"],
 )
